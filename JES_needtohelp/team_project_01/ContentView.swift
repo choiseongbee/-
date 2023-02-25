@@ -24,12 +24,22 @@ struct ContentView: View {
         VStack{
                 NavigationView{
                     ZStack{
-//                        Color(red: 210 / 255, green: 255 / 255,                         blue: 255 / 255).ignoresSafeArea()
-//
+                        Color(red: 183 / 255, green: 226 / 255,                         blue: 166 / 255).ignoresSafeArea()
+
+                        
                         NavigationLink(destination: next_page()) {
                             
-                            Text("버튼입니다.")
-                                .frame(width: 100, height: 100)
+                            ZStack{
+                                Image("Rectangle 29")
+                                HStack{
+                                    Image("성공")
+                                    Image("실패")
+                                    
+                                }
+                               
+                            
+                            }
+                            
                         }
                     }
                     
