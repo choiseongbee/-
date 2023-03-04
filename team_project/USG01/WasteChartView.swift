@@ -21,6 +21,8 @@ struct WasteData: Identifiable {
 }
 
 struct WasteChartView: View {
+    
+    
     @State private var data: [WasteData] = []
     @State private var generalWasteData: [WasteData] = []
 
@@ -28,6 +30,8 @@ struct WasteChartView: View {
         
         NavigationView {
             VStack {
+                Text("그린 다이어터")
+                    .font(.custom("BMJUAOTF", size: 34))
                 WasteChart(title: "재활용 쓰레기 소비",
                            data: data,
                            onAdd: { weight in
@@ -46,7 +50,10 @@ struct WasteChartView: View {
                                                       weight: weight))
                 })
             }
-            .navigationBarTitle(Text("Waste Chart"))
+            .navigationBarTitle(Text("그린 다이어터"))
+            .navigationBarHidden(true)
+            
+
         }
         
     }
@@ -95,7 +102,9 @@ struct WasteChart: View {
                     .fill(Color(red: 0.87, green: 0.96, blue: 0.88))
             )
         }
+        
     }
+    
 }
 
 struct AddView: View {

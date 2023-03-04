@@ -12,11 +12,6 @@ import SwiftUI
 struct ContentView: View {
     
     var body: some View {
-        VStack {
-            Text("메인")
-                .font(.custom("BMJUAOTF", size: 28))
-        }
-        
         TabView {
             WasteChartView()
                 .tabItem {
