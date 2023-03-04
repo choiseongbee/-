@@ -95,7 +95,7 @@ struct WasteChart: View {
                 PointMark(x: .value("day", $0.date), y: .value("weight",$0.weight))
                 RuleMark(y: .value("weightAverage",496.23)).foregroundStyle(.green)
             }
-            .frame(width: 300, height: 200)
+            .frame(width: 300, height: 172)
             .padding()
             .background(
                 RoundedRectangle(cornerRadius: 20)
