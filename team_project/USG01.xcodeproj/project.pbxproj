@@ -17,6 +17,8 @@
 		9AE4E5CF29B06C2A0020A12A /* WasteDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9AE4E5CD29B06C2A0020A12A /* WasteDataModel.xcdatamodeld */; };
 		9AE4E5D229B06DC60020A12A /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE4E5D129B06DC60020A12A /* DataController.swift */; };
 		9AF044C929A213510015F438 /* WasteChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF044C829A213510015F438 /* WasteChartView.swift */; };
+		F42654E329BB60A000B3E702 /* TrashSurveyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42654E229BB60A000B3E702 /* TrashSurveyView.swift */; };
+		F42654E529BB60D500B3E702 /* TrashSurveyResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42654E429BB60D500B3E702 /* TrashSurveyResultView.swift */; };
 		F43A75E929A6FDA10023A0A4 /* StampView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43A75E829A6FDA10023A0A4 /* StampView.swift */; };
 		F43A75F829A9AF3A0023A0A4 /* mission6.png in Resources */ = {isa = PBXBuildFile; fileRef = F43A75F029A9AF3A0023A0A4 /* mission6.png */; };
 		F43A75F929A9AF3A0023A0A4 /* mission4.png in Resources */ = {isa = PBXBuildFile; fileRef = F43A75F129A9AF3A0023A0A4 /* mission4.png */; };
@@ -44,6 +46,8 @@
 		9AE4E5CE29B06C2A0020A12A /* WasteDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WasteDataModel.xcdatamodel; sourceTree = "<group>"; };
 		9AE4E5D129B06DC60020A12A /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		9AF044C829A213510015F438 /* WasteChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WasteChartView.swift; sourceTree = "<group>"; };
+		F42654E229BB60A000B3E702 /* TrashSurveyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrashSurveyView.swift; sourceTree = "<group>"; };
+		F42654E429BB60D500B3E702 /* TrashSurveyResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrashSurveyResultView.swift; sourceTree = "<group>"; };
 		F43A75E829A6FDA10023A0A4 /* StampView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StampView.swift; sourceTree = "<group>"; };
 		F43A75F029A9AF3A0023A0A4 /* mission6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mission6.png; sourceTree = "<group>"; };
 		F43A75F129A9AF3A0023A0A4 /* mission4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mission4.png; sourceTree = "<group>"; };
@@ -113,6 +117,8 @@
 				9ADAC5DD29702DF3000D8C6F /* USG01App.swift */,
 				9ADAC5DF29702DF3000D8C6F /* ContentView.swift */,
 				F43A75E829A6FDA10023A0A4 /* StampView.swift */,
+				F42654E229BB60A000B3E702 /* TrashSurveyView.swift */,
+				F42654E429BB60D500B3E702 /* TrashSurveyResultView.swift */,
 				9AF044C829A213510015F438 /* WasteChartView.swift */,
 				9ADD039D29B2E499007AD168 /* NameSettingsView.swift */,
 				9ADD03A129B31775007AD168 /* InitialView.swift */,
@@ -254,10 +260,12 @@
 			files = (
 				9AE4E5CF29B06C2A0020A12A /* WasteDataModel.xcdatamodeld in Sources */,
 				9ADD03A229B31775007AD168 /* InitialView.swift in Sources */,
+				F42654E529BB60D500B3E702 /* TrashSurveyResultView.swift in Sources */,
 				9AE4E5D229B06DC60020A12A /* DataController.swift in Sources */,
 				9AF044C929A213510015F438 /* WasteChartView.swift in Sources */,
 				9ADD039E29B2E499007AD168 /* NameSettingsView.swift in Sources */,
 				9ADAC5E029702DF3000D8C6F /* ContentView.swift in Sources */,
+				F42654E329BB60A000B3E702 /* TrashSurveyView.swift in Sources */,
 				F43A75E929A6FDA10023A0A4 /* StampView.swift in Sources */,
 				9ADAC5DE29702DF3000D8C6F /* USG01App.swift in Sources */,
 			);
