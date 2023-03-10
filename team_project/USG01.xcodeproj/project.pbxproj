@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E9687D329BBDFC7000288C6 /* settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9687D229BBDFC7000288C6 /* settings.swift */; };
+		4E9687D529BBE09D000288C6 /* DailyQuest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9687D429BBE09C000288C6 /* DailyQuest.swift */; };
+		4E9687D729BBE13E000288C6 /* answerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9687D629BBE13E000288C6 /* answerView.swift */; };
 		9A79B4C329A3528200325AC5 /* BMJUA.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9A79B4C129A350B600325AC5 /* BMJUA.otf */; };
 		9ADAC5DE29702DF3000D8C6F /* USG01App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADAC5DD29702DF3000D8C6F /* USG01App.swift */; };
 		9ADAC5E029702DF3000D8C6F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADAC5DF29702DF3000D8C6F /* ContentView.swift */; };
@@ -33,6 +36,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E9687D229BBDFC7000288C6 /* settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settings.swift; sourceTree = "<group>"; };
+		4E9687D429BBE09C000288C6 /* DailyQuest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyQuest.swift; sourceTree = "<group>"; };
+		4E9687D629BBE13E000288C6 /* answerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = answerView.swift; sourceTree = "<group>"; };
 		9A79B4C129A350B600325AC5 /* BMJUA.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BMJUA.otf; sourceTree = "<group>"; };
 		9A79B4C229A3513500325AC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		9ADAC5DA29702DF3000D8C6F /* USG01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = USG01.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,6 +121,9 @@
 			children = (
 				9A79B4C229A3513500325AC5 /* Info.plist */,
 				9ADAC5DD29702DF3000D8C6F /* USG01App.swift */,
+				4E9687D229BBDFC7000288C6 /* settings.swift */,
+				4E9687D429BBE09C000288C6 /* DailyQuest.swift */,
+				4E9687D629BBE13E000288C6 /* answerView.swift */,
 				9ADAC5DF29702DF3000D8C6F /* ContentView.swift */,
 				F43A75E829A6FDA10023A0A4 /* StampView.swift */,
 				F42654E229BB60A000B3E702 /* TrashSurveyView.swift */,
@@ -258,13 +267,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E9687D329BBDFC7000288C6 /* settings.swift in Sources */,
 				9AE4E5CF29B06C2A0020A12A /* WasteDataModel.xcdatamodeld in Sources */,
 				9ADD03A229B31775007AD168 /* InitialView.swift in Sources */,
 				F42654E529BB60D500B3E702 /* TrashSurveyResultView.swift in Sources */,
+				4E9687D729BBE13E000288C6 /* answerView.swift in Sources */,
 				9AE4E5D229B06DC60020A12A /* DataController.swift in Sources */,
 				9AF044C929A213510015F438 /* WasteChartView.swift in Sources */,
 				9ADD039E29B2E499007AD168 /* NameSettingsView.swift in Sources */,
 				9ADAC5E029702DF3000D8C6F /* ContentView.swift in Sources */,
+				4E9687D529BBE09D000288C6 /* DailyQuest.swift in Sources */,
 				F42654E329BB60A000B3E702 /* TrashSurveyView.swift in Sources */,
 				F43A75E929A6FDA10023A0A4 /* StampView.swift in Sources */,
 				9ADAC5DE29702DF3000D8C6F /* USG01App.swift in Sources */,
