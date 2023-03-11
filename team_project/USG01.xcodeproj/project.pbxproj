@@ -17,6 +17,13 @@
 		9ADAC5E529702DF4000D8C6F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ADAC5E429702DF4000D8C6F /* Preview Assets.xcassets */; };
 		9ADD039E29B2E499007AD168 /* NameSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADD039D29B2E499007AD168 /* NameSettingsView.swift */; };
 		9ADD03A229B31775007AD168 /* InitialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADD03A129B31775007AD168 /* InitialView.swift */; };
+		9ADF4F4D29BC531700357D3D /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 9ADF4F4C29BC531700357D3D /* Documentation.docc */; };
+		9ADF4F4F29BC56B500357D3D /* KakaoTalk_Photo_2023-03-11-15-26-15.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ADF4F4E29BC56B500357D3D /* KakaoTalk_Photo_2023-03-11-15-26-15.png */; };
+		9ADF4F5129BC570500357D3D /* KakaoTalk_Photo_2023-03-11-15-25-31 001.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ADF4F5029BC570500357D3D /* KakaoTalk_Photo_2023-03-11-15-25-31 001.png */; };
+		9ADF4F5329BC570D00357D3D /* KakaoTalk_Photo_2023-03-11-15-25-32 002.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ADF4F5229BC570D00357D3D /* KakaoTalk_Photo_2023-03-11-15-25-32 002.png */; };
+		9ADF4F5529BC571300357D3D /* KakaoTalk_Photo_2023-03-11-15-25-32 003.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ADF4F5429BC571300357D3D /* KakaoTalk_Photo_2023-03-11-15-25-32 003.png */; };
+		9ADF4F5729BC571800357D3D /* KakaoTalk_Photo_2023-03-11-15-25-32 004.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ADF4F5629BC571800357D3D /* KakaoTalk_Photo_2023-03-11-15-25-32 004.png */; };
+		9ADF4F5929BC571B00357D3D /* KakaoTalk_Photo_2023-03-11-15-26-15.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ADF4F5829BC571B00357D3D /* KakaoTalk_Photo_2023-03-11-15-26-15.png */; };
 		9AE4E5CF29B06C2A0020A12A /* WasteDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9AE4E5CD29B06C2A0020A12A /* WasteDataModel.xcdatamodeld */; };
 		9AE4E5D229B06DC60020A12A /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE4E5D129B06DC60020A12A /* DataController.swift */; };
 		9AF044C929A213510015F438 /* WasteChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF044C829A213510015F438 /* WasteChartView.swift */; };
@@ -49,6 +56,13 @@
 		9ADD039C29B2E41F007AD168 /* Earth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Earth.png; sourceTree = "<group>"; };
 		9ADD039D29B2E499007AD168 /* NameSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameSettingsView.swift; sourceTree = "<group>"; };
 		9ADD03A129B31775007AD168 /* InitialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialView.swift; sourceTree = "<group>"; };
+		9ADF4F4C29BC531700357D3D /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
+		9ADF4F4E29BC56B500357D3D /* KakaoTalk_Photo_2023-03-11-15-26-15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "KakaoTalk_Photo_2023-03-11-15-26-15.png"; path = "../../../../../사진/KakaoTalk_Photo_2023-03-11-15-26-15.png"; sourceTree = "<group>"; };
+		9ADF4F5029BC570500357D3D /* KakaoTalk_Photo_2023-03-11-15-25-31 001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KakaoTalk_Photo_2023-03-11-15-25-31 001.png"; sourceTree = "<group>"; };
+		9ADF4F5229BC570D00357D3D /* KakaoTalk_Photo_2023-03-11-15-25-32 002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KakaoTalk_Photo_2023-03-11-15-25-32 002.png"; sourceTree = "<group>"; };
+		9ADF4F5429BC571300357D3D /* KakaoTalk_Photo_2023-03-11-15-25-32 003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KakaoTalk_Photo_2023-03-11-15-25-32 003.png"; sourceTree = "<group>"; };
+		9ADF4F5629BC571800357D3D /* KakaoTalk_Photo_2023-03-11-15-25-32 004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KakaoTalk_Photo_2023-03-11-15-25-32 004.png"; sourceTree = "<group>"; };
+		9ADF4F5829BC571B00357D3D /* KakaoTalk_Photo_2023-03-11-15-26-15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KakaoTalk_Photo_2023-03-11-15-26-15.png"; sourceTree = "<group>"; };
 		9AE4E5CE29B06C2A0020A12A /* WasteDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WasteDataModel.xcdatamodel; sourceTree = "<group>"; };
 		9AE4E5D129B06DC60020A12A /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		9AF044C829A213510015F438 /* WasteChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WasteChartView.swift; sourceTree = "<group>"; };
@@ -95,6 +109,7 @@
 		9A79B4C029A3508F00325AC5 /* fonts */ = {
 			isa = PBXGroup;
 			children = (
+				9ADF4F4E29BC56B500357D3D /* KakaoTalk_Photo_2023-03-11-15-26-15.png */,
 				9A79B4C129A350B600325AC5 /* BMJUA.otf */,
 			);
 			path = fonts;
@@ -133,6 +148,7 @@
 				9ADD03A129B31775007AD168 /* InitialView.swift */,
 				9AE4E5D029B06C2F0020A12A /* Model */,
 				9A79B4BF29A3503E00325AC5 /* Resource */,
+				9ADF4F4C29BC531700357D3D /* Documentation.docc */,
 			);
 			path = USG01;
 			sourceTree = "<group>";
@@ -148,6 +164,11 @@
 		9ADD039929B2E3FE007AD168 /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				9ADF4F5029BC570500357D3D /* KakaoTalk_Photo_2023-03-11-15-25-31 001.png */,
+				9ADF4F5229BC570D00357D3D /* KakaoTalk_Photo_2023-03-11-15-25-32 002.png */,
+				9ADF4F5429BC571300357D3D /* KakaoTalk_Photo_2023-03-11-15-25-32 003.png */,
+				9ADF4F5629BC571800357D3D /* KakaoTalk_Photo_2023-03-11-15-25-32 004.png */,
+				9ADF4F5829BC571B00357D3D /* KakaoTalk_Photo_2023-03-11-15-26-15.png */,
 				9ADD039C29B2E41F007AD168 /* Earth.png */,
 			);
 			path = Image;
@@ -245,17 +266,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				F43A75FA29A9AF3A0023A0A4 /* mission1.png in Resources */,
+				9ADF4F5929BC571B00357D3D /* KakaoTalk_Photo_2023-03-11-15-26-15.png in Resources */,
 				F43A75FE29A9AF3A0023A0A4 /* mission2.png in Resources */,
 				9ADAC5E529702DF4000D8C6F /* Preview Assets.xcassets in Resources */,
 				F43A75FB29A9AF3A0023A0A4 /* mission7.png in Resources */,
 				F43A75FD29A9AF3A0023A0A4 /* mission3.png in Resources */,
+				9ADF4F5129BC570500357D3D /* KakaoTalk_Photo_2023-03-11-15-25-31 001.png in Resources */,
 				F43A75F929A9AF3A0023A0A4 /* mission4.png in Resources */,
 				9A79B4C329A3528200325AC5 /* BMJUA.otf in Resources */,
 				F43A75FF29A9AF3A0023A0A4 /* mission0.png in Resources */,
 				F43A760229A9AF4F0023A0A4 /* tip0.png in Resources */,
+				9ADF4F5329BC570D00357D3D /* KakaoTalk_Photo_2023-03-11-15-25-32 002.png in Resources */,
+				9ADF4F5529BC571300357D3D /* KakaoTalk_Photo_2023-03-11-15-25-32 003.png in Resources */,
 				9ADAC5E229702DF4000D8C6F /* Assets.xcassets in Resources */,
 				F43A75FC29A9AF3A0023A0A4 /* mission5.png in Resources */,
+				9ADF4F5729BC571800357D3D /* KakaoTalk_Photo_2023-03-11-15-25-32 004.png in Resources */,
 				F43A75F829A9AF3A0023A0A4 /* mission6.png in Resources */,
+				9ADF4F4F29BC56B500357D3D /* KakaoTalk_Photo_2023-03-11-15-26-15.png in Resources */,
 				F43A760329A9AF4F0023A0A4 /* tip1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +303,7 @@
 				9AF044C929A213510015F438 /* WasteChartView.swift in Sources */,
 				9ADD039E29B2E499007AD168 /* NameSettingsView.swift in Sources */,
 				9ADAC5E029702DF3000D8C6F /* ContentView.swift in Sources */,
+				9ADF4F4D29BC531700357D3D /* Documentation.docc in Sources */,
 				4E9687D529BBE09D000288C6 /* DailyQuest.swift in Sources */,
 				F42654E329BB60A000B3E702 /* TrashSurveyView.swift in Sources */,
 				F43A75E929A6FDA10023A0A4 /* StampView.swift in Sources */,
