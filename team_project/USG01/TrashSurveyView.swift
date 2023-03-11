@@ -35,7 +35,7 @@ struct TrashSurveyView: View {
     ]
     
     var body: some View {
-        NavigationStack{
+        NavigationView{
             
             ZStack{
                 
@@ -80,13 +80,10 @@ struct TrashSurveyView: View {
                             }
                         
                         else {
-                            Button {
-                                withAnimation {
-                                    self.showResultView = true
-                                }
-                            } label: {
-                                Text("제출")
-                            }.padding().bold().font(.custom("BMJUAOTF", size: 20)).foregroundColor(.white).background(Color(red: 226/255, green: 196/255, blue: 141/255)).cornerRadius(30).padding()
+                            NavigationLink(destination: TrashSurveyResultView(isclosed: $showResultView).navigationBarHidden(true)) {
+                                Text("제출").padding().bold().font(.custom("BMJUAOTF", size: 20)).foregroundColor(.white).background(Color(red: 226/255, green: 196/255, blue: 141/255)).cornerRadius(30).padding()
+                            }
+                            
                         }
                         
                     }
@@ -98,9 +95,8 @@ struct TrashSurveyView: View {
                 
             }
             
-        }.sheet(isPresented: $showResultView) {
-            TrashSurveyResultView(isclosed: $showResultView)
         }
+        
     }
 }
 
@@ -122,6 +118,11 @@ struct QuestionView: View{
                     YesNoView(question: question, options: options)
                 }
             }
+            .frame(width: /*@START_MENU_TOKEN@*/356.0/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/393.0/*@END_MENU_TOKEN@*/)
+            .background(
+                RoundedRectangle(cornerRadius: 20)
+                    .fill(Color(.white))
+            )
         }
     }
     
@@ -146,10 +147,14 @@ struct SliderView: View{
     var body: some View{
         VStack{
             Text(question.text)
+                .bold().font(.custom("BMJUAOTF", size: 30)).padding(/*@START_MENU_TOKEN@*/.bottom, 50.0/*@END_MENU_TOKEN@*/)
+
             
             Slider(value: intProxy, in: 1...30)
             Text("\(value)")
-        }.padding()
+                .bold().font(.custom("BMJUAOTF", size: 30))
+        }
+        .padding()
     }
 }
 
@@ -170,7 +175,7 @@ struct YesNoView: View{
                     selection = option
                 } label: {
                     Text(option).padding()
-                }.bold().font(.custom("BMJUAOTF", size: 20)).foregroundColor(.white).background(Color(red: 241/255, green: 159/255, blue: 100/255)).cornerRadius(30).padding()
+                }.bold().font(.custom("BMJUAOTF", size: 20)).foregroundColor(.white).background(Color(red: 241/255, green: 159/255, blue: 100/255)).cornerRadius(40).padding()
 
                 }}
         }

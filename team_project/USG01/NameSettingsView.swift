@@ -12,50 +12,58 @@ struct NameSettingsView: View {
     @State private var isNameEntered = false
     
     var body: some View {
-        ZStack {
-            Rectangle()
-                .fill(Color(red: 196/255, green: 230/255, blue: 193/255))
-                .frame(maxWidth: .infinity,
-                       maxHeight: .infinity).ignoresSafeArea()
-            VStack {
-                Text("그린 다이어터")
-                    .font(.custom("BMJUAOTF", size: 34))
-                    .foregroundColor(.white)
-                    .padding([.leading, .bottom, .trailing], 60)
-                
-                Image("Earth")
-                    .padding(.bottom, 74.0)
-                
+        NavigationView {
+            ZStack {
+                Rectangle()
+                    .fill(Color(red: 196/255, green: 230/255, blue: 193/255))
+                    .frame(maxWidth: .infinity,
+                           maxHeight: .infinity).ignoresSafeArea()
                 VStack {
-                    Text("이름을 설정해주세요")
-                        .font(.custom("BMJUAOTF", size: 28))
-                        .padding()
+                    Text("그린 다이어터")
+                        .font(.custom("BMJUAOTF", size: 34))
+                        .foregroundColor(.white)
+                        .padding([.leading, .bottom, .trailing], 60)
                     
-                    TextField("", text: $name)
-                        .padding()
-                        .background(Color(.systemGray5))
-                        .cornerRadius(10)
-                        .padding(.horizontal)
+                    Image("Earth")
+                        .padding(.bottom, 74.0)
                     
-                    Button(action: {
-                        isNameEntered = true
-                    }) {
-                        Text("확인")
-                            .font(.custom("BMJUAOTF", size: 18))
-                            .foregroundColor(.white)
+                    VStack {
+                        Text("이름을 설정해주세요")
+                            .font(.custom("BMJUAOTF", size: 28))
                             .padding()
-                            .frame(width: 101, height: 43)
-                            .background(Color(red: 133/255, green: 133/255, blue: 133/255))
-                            .cornerRadius(30)
+                        
+                        TextField("", text: $name)
+                            .padding()
+                            .background(Color(.systemGray5))
+                            .cornerRadius(10)
+                            .padding(.horizontal)
+                        
+                        NavigationLink(destination: InitialView()
+                            .navigationBarHidden(true), isActive: $isNameEntered) {
+                            EmptyView()
+                        }
+                        
+                        Button(action: {
+                            isNameEntered = true
+                        }) {
+                            Text("확인")
+                                .font(.custom("BMJUAOTF", size: 18))
+                                .foregroundColor(.white)
+                                .padding()
+                                .frame(width: 101, height: 43)
+                                .background(Color(red: 133/255, green: 133/255, blue: 133/255))
+                                .cornerRadius(30)
+                        }
+                        .padding()
+                        
                     }
+                    .background(Color.white)
+                    .cornerRadius(20)
                     .padding()
-                    
+                    .shadow(radius: 10)
                 }
-                .background(Color.white)
-                .cornerRadius(20)
-                .padding()
-                .shadow(radius: 10)
             }
+            .navigationBarHidden(true)
         }
     }
 }

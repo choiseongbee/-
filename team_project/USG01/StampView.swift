@@ -37,7 +37,7 @@ struct StampView: View {
         NavigationStack{
             ZStack{
                 Rectangle()
-                    .fill(Color(red: 213/255, green: 234/255, blue: 255/255))
+                    .fill(Color(red: 217/255, green: 239/255, blue: 203/255))
                     .frame(maxWidth: .infinity,
                            maxHeight: .infinity).ignoresSafeArea()
                 

@@ -23,35 +23,42 @@ struct WasteData: Identifiable {
 struct WasteChartView: View {
     
     
-    @State private var data: [WasteData] = []
-    @State private var generalWasteData: [WasteData] = []
+    @State private var data: [WasteData] = [WasteData(month: 2, day: 1, weight: 800),WasteData(month: 2, day: 19, weight: 700)]
+    @State private var generalWasteData: [WasteData] = [WasteData(month: 2, day: 1, weight: 700),WasteData(month: 2, day: 19, weight: 600)]
 
     var body: some View {
         
         NavigationView {
-            VStack {
-                Text("그린 다이어터")
-                    .font(.custom("BMJUAOTF", size: 34))
-                WasteChart(title: "재활용 쓰레기 소비",
-                           data: data,
-                           onAdd: { weight in
-                    let date = Date()
-                    data.append(WasteData(month: Calendar.current.component(.month, from: date),
-                                          day: Calendar.current.component(.day, from: date),
-                                          weight: weight))
-                })
+            
+            ZStack {
+                Rectangle()
+                    .fill(Color(red: 196/255, green: 230/255, blue: 193/255))
+                    .frame(maxWidth: .infinity,
+                           maxHeight: .infinity).ignoresSafeArea()
+                VStack {
+                    Text("그린 다이어터")
+                        .font(.custom("BMJUAOTF", size: 34))
+                    WasteChart(title: "재활용 쓰레기 소비",
+                               data: data,
+                               onAdd: { weight in
+                        let date = Date()
+                        data.append(WasteData(month: Calendar.current.component(.month, from: date),
+                                              day: Calendar.current.component(.day, from: date),
+                                              weight: weight))
+                    })
 
-                WasteChart(title: "일반쓰레기 소비",
-                           data: generalWasteData,
-                           onAdd: { weight in
-                    let date = Date()
-                    generalWasteData.append(WasteData(month: Calendar.current.component(.month, from: date),
-                                                      day: Calendar.current.component(.day, from: date),
-                                                      weight: weight))
-                })
-            }
-            .navigationBarTitle(Text("그린 다이어터"))
+                    WasteChart(title: "일반쓰레기 소비",
+                               data: generalWasteData,
+                               onAdd: { weight in
+                        let date = Date()
+                        generalWasteData.append(WasteData(month: Calendar.current.component(.month, from: date),
+                                                          day: Calendar.current.component(.day, from: date),
+                                                          weight: weight))
+                    })
+                }
+                .navigationBarTitle(Text("그린 다이어터"))
             .navigationBarHidden(true)
+            }
             
 
         }
@@ -99,7 +106,7 @@ struct WasteChart: View {
             .padding()
             .background(
                 RoundedRectangle(cornerRadius: 20)
-                    .fill(Color(red: 0.87, green: 0.96, blue: 0.88))
+                    .fill(Color(.white))
             )
         }
         

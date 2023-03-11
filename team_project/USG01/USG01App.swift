@@ -13,7 +13,7 @@ struct USG01App: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NameSettingsView()
                 .environment(\.managedObjectContext, dataController.container.viewContext)
         }
     }
