@@ -34,14 +34,6 @@
 ![Swift](https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white)
 
 ## 화면 구성
- 
-|메인 페이지|설문 페이지|
-|------------|------------|
-|<img src="https://user-images.githubusercontent.com/99808784/224467267-cc1cc37b-f634-437a-a4ea-660086e2a2aa.png" width="230" height="450">|<img src="https://user-images.githubusercontent.com/99808784/224467380-d78d916c-83b5-4d99-ad14-50be999f9fc6.png" width="230" height="450">|
-|일일 퀘스트|스탬프 페이지|
-|<img src="https://user-images.githubusercontent.com/99808784/224467402-f5071e0d-5ddc-40b4-8a2f-db6cdbce67ad.png" width="230" height="450">|<img src="https://user-images.githubusercontent.com/99808784/224467407-d9116447-a670-4d39-a6d9-77efd4496cb7.png" width="230" height="450">|
-
-
 
 
 ## 주요 기능
